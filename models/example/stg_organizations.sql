@@ -11,7 +11,7 @@
 
 with stg_organizations as (
 
-    SELECT * FROM pipedrive.organizations LIMIT 1000
+    SELECT * FROM pipedrive.organizations
 
 )
 
