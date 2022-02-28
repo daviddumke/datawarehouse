@@ -6,5 +6,5 @@ from {{ ref('moviment_product') }}
 where id = 1
 union all
 select *
-from {{ ref('inventory_product') }}
+from {{ ref('inventory') }}
 where id = 1
